@@ -1,7 +1,7 @@
 import clr #import clr from pythonnet
 
 #load our dll file(mine is in my C:\\ folder)
-clr.AddReference("C:\\Users\\stomn\\source\\repos\\CampaignSweeperDLL\\bin\\Debug\\CampaignSweeperDLL.dll")
+clr.AddReference("C:\\Users\\stomn\\source\\repos\\CampaignSweeperDLL\\bin\\Release\\CampaignSweeperDLL.dll")
 
 #import our calculator class from Our C# namespace MyCalculator
 from CampaignSweeperDLL import CMCLASS
